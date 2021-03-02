@@ -26,13 +26,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //Meta tag Keywords -->
 
     <!-- Custom-Files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="{{asset('welcome/css/bootstrap.css')}}">
     <!-- Bootstrap-Core-CSS -->
-    <link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+    <link href="{{asset('welcome/css/login_overlay.css')}}" rel='stylesheet' type='text/css' />
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{asset('welcome/css/style.css')}}" type="text/css" media="all" />
     <!-- Style-CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="{{asset('welcome/css/fontawesome-all.css')}}">
     <!-- Font-Awesome-Icons-CSS -->
     <!-- //Custom-Files -->
 
