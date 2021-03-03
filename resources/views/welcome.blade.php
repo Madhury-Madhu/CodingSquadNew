@@ -639,11 +639,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- Js files -->
     <!-- JavaScript -->
-    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="{{asset('welcome/js/jquery-2.2.3.min.js')}}"></script>
     <!-- Default-JavaScript-File -->
 
     <!-- flexisel (for special offers) -->
-    <script src="js/jquery.flexisel.js"></script>
+    <script src="{{asset('welcome/js/jquery.flexisel.js')}}"></script>
     <script>
         $(window).load(function() {
             $("#flexiselDemo1").flexisel({
@@ -699,8 +699,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- script for tabs -->
 
     <!-- stats -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.countup.js"></script>
+    <script src="{{asset('welcome/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('welcome/js/jquery.countup.js')}}"></script>
     <script>
         $('.counter').countUp();
     </script>
@@ -717,20 +717,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //menu-js -->
 
     <!-- banner slider -->
-    <script src="js/image-slider.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/image-slider.css">
+    <script src="{{asset('welcome/js/image-slider.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('welcome/css/image-slider.css')}}">
     <!-- //banner slider -->
 
     <!-- smooth scrolling -->
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="{{asset('welcome/js/SmoothScroll.min.js')}}"></script>
     <!-- move-top -->
-    <script src="js/move-top.js"></script>
+    <script src="{{asset('welcome/js/move-top.js')}}"></script>
     <!-- easing -->
-    <script src="js/easing.js"></script>
+    <script src="{{asset('welcome/js/easing.js')}}"></script>
     <!--  necessary snippets for few javascript files -->
-    <script src="js/cakes-bakery.js"></script>
+    <script src="{{asset('welcome/js/cakes-bakery.js')}}"></script>
 
-    <script src="js/bootstrap.js"></script>
+    <script src="{{asset('welcome/js/bootstrap.js')}}"></script>
     <!-- Necessary-JavaScript-File-For-Bootstrap -->
 
     <!-- //Js files -->
