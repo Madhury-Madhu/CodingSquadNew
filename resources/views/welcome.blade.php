@@ -52,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="logo text-left">
                     <h1>
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/logo.png" alt="" class="img-fluid">Cakes Bakery</a>
+                            <img src="{{asset('welcome/images/logo.png')}}" alt="" class="img-fluid">Cakes Bakery</a>
                     </h1>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -175,23 +175,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <ul class="list-unstyled my-4">
                     <li class="icons-mkw3ls">
                         <p class="mb-2">Chocolate</p>
-                        <img src="images/img1.png" class="img-fluid" alt="">
+                        <img src="{{asset('welcome/images/img1.png')}}" class="img-fluid" alt="">
                     </li>
                     <li class="icons-mkw3ls">
                         <p class="mb-2">Strawberry</p>
-                        <img src="images/img2.png" class="img-fluid" alt="">
+                        <img src="{{asset('welcome/images/img2.png')}}" class="img-fluid" alt="">
                     </li>
                     <li class="icons-mkw3ls">
                         <p class="mb-2">Pista</p>
-                        <img src="images/img3.png" class="img-fluid" alt="">
+                        <img src="{{asset('welcome/images/img3.png')}}" class="img-fluid" alt="">
                     </li>
                     <li class="icons-mkw3ls">
                         <p class="mb-2">Vanilla</p>
-                        <img src="images/img4.png" class="img-fluid" alt="">
+                        <img src="{{asset('welcome/images/img4.png')}}" class="img-fluid" alt="">
                     </li>
                     <li class="icons-mkw3ls">
                         <p class="mb-2">Muffins</p>
-                        <img src="images/img5.png" class="img-fluid" alt="">
+                        <img src="{{asset('welcome/images/img5.png')}}" class="img-fluid" alt="">
                     </li>
                 </ul>
             </div>
@@ -218,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </button>
                     </div>
                     <div class="col-lg-6 about-img text-lg-enter">
-                        <img src="images/about.png" alt="" class="img-fluid">
+                        <img src="{{asset('welcome/images/about.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -238,7 +238,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
         <!-- cake -->
-        <img src="images/cake7.png" alt="" class="img-fluid cake-style">
+        <img src="{{asset('welcome/images/cake7.png')}}" alt="" class="img-fluid cake-style">
 
         <!-- //cake -->
     </section>
@@ -272,7 +272,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-lg-left text-center pt-4">
-                    <img src="images/women.png" alt="" class="img-fluid women-style" />
+                    <img src="{{asset('welcome/images/women.png')}}" alt="" class="img-fluid women-style" />
                 </div>
                 <div class="col-lg-6 left-build-wthree aboutright-agilewthree mt-0 py-5">
                     <div class=" py-xl-5 py-lg-3">
@@ -320,7 +320,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
                                 </div>
                                 <div class="col-lg-6 speioffer-agile">
-                                    <img src="images/product1.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('welcome/images/product1.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -338,7 +338,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
                                 </div>
                                 <div class="col-lg-6 speioffer-agile">
-                                    <img src="images/product2.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('welcome/images/product2.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -356,7 +356,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
                                 </div>
                                 <div class="col-lg-6 speioffer-agile">
-                                    <img src="images/product3.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('welcome/images/product3.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -374,7 +374,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
                                 </div>
                                 <div class="col-lg-6 speioffer-agile">
-                                    <img src="images/product4.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('welcome/images/product4.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -392,7 +392,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
                                 </div>
                                 <div class="col-lg-6 speioffer-agile">
-                                    <img src="images/product5.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('welcome/images/product5.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -465,7 +465,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="col-sm-6 news-grids-agile">
                             <div class="news-top">
                                 <a href="single.html">
-                                    <img src="images/news1.jpg" alt="" class="img-fluid" />
+                                    <img src="{{asset('welcome/images/news1.jpg')}}" alt="" class="img-fluid" />
                                 </a>
                             </div>
                             <div class="price-bottom bg-white p-4">
@@ -476,7 +476,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="col-sm-6 news-grids-agile mt-sm-0 mt-5">
                             <div class="news-top">
                                 <a href="single.html">
-                                    <img src="images/news2.jpg" alt="" class="img-fluid" />
+                                    <img src="{{asset('welcome/images/news2.jpg')}}" alt="" class="img-fluid" />
                                 </a>
                             </div>
                             <div class="price-bottom bg-white p-4">
@@ -631,7 +631,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!-- //copyright -->
         </div>
         <!-- chef -->
-        <img src="images/chef.png" alt="" class="img-fluid chef-style" />
+        <img src="{{asset('welcome/images/chef.png')}}" alt="" class="img-fluid chef-style" />
         <!-- //chef -->
     </footer>
     <!-- //footer -->
